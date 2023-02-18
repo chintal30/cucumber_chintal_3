@@ -17,7 +17,7 @@ Feature: Login Screen Test
       | admin     |   manager |
       | trainee   | trainee |
 
-  @medium
+  @low
   Scenario: InValid user test
     Given user enters "admin123" as user id
     And user enters "manager123" as password
